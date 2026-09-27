@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rasmalai ❤️ | My Sweetest Person</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#fff7fa;color:#3b1f2b;overflow-x:hidden}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px 20px;position:relative;background:radial-gradient(circle at top left,#ffd8e5,transparent 35%),radial-gradient(circle at bottom right,#ffc4d8,transparent 35%),linear-gradient(135deg,#fff6fa,#ffe7ef)}
+.hero-content{max-width:900px}
+.kicker{text-transform:uppercase;letter-spacing:4px;color:#b44d70;font-size:14px;margin-bottom:20px}
+.hero h1{font:italic clamp(65px,13vw,150px)/.9 Georgia,serif;color:#9d3158}
+.hero h2{font-size:clamp(22px,4vw,42px);font-weight:500;margin-top:25px}
+.hero p{max-width:650px;margin:20px auto 30px;line-height:1.8;color:#684351}
+.btn{display:inline-block;padding:14px 30px;border-radius:50px;background:#a93660;color:#fff;text-decoration:none;font-weight:bold}
+section{padding:85px 7%}
+.title{text-align:center;margin-bottom:45px}
+.title span{color:#c34f78;font-size:13px;letter-spacing:3px;text-transform:uppercase}
+.title h2{font:clamp(38px,6vw,60px) Georgia,serif;color:#8f2d52;margin-top:10px}
+.title p{max-width:650px;margin:15px auto;line-height:1.7;color:#765966}
+.about{background:#fff}
+.about-grid{max-width:1100px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.about-image{width:100%;height:540px;object-fit:cover;border-radius:30px;box-shadow:0 20px 60px #641e3c26}
+.about-text h3{font:38px Georgia,serif;color:#8f2d52;margin-bottom:20px}
+.about-text p{font-size:17px;line-height:2;color:#684957;margin-bottom:20px}
+.quote{border-left:4px solid #c54d76;padding:15px 20px;background:#fff3f7;border-radius:0 15px 15px 0;font:italic 21px Georgia,serif;color:#8d3655}
+.gallery{background:#fff5f8}
+.gallery-grid{max-width:1200px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{height:430px;position:relative;overflow:hidden;border-radius:25px;cursor:pointer;box-shadow:0 15px 40px #5014321f}
+.card img{width:100%;height:100%;object-fit:cover;transition:.6s}
+.card:hover img{transform:scale(1.07)}
+.caption{position:absolute;left:0;right:0;bottom:0;padding:35px 20px 20px;color:#fff;background:linear-gradient(transparent,#000b);font:20px Georgia,serif}
+.special{background:linear-gradient(135deg,#8f2d52,#c04b75);color:#fff;text-align:center}
+.special .title span,.special .title h2,.special .title p{color:#fff}
+.special-grid{max-width:1100px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
+.special-card{padding:35px 25px;border-radius:25px;background:#ffffff1f;border:1px solid #ffffff33}
+.special-card .icon{font-size:45px;margin-bottom:15px}
+.special-card h3{margin-bottom:12px}
+.special-card p{line-height:1.7;color:#ffe8f0}
+.letter{background:#fff}
+.letter-box{max-width:850px;margin:auto;padding:55px;background:#fff8fa;border-radius:30px;box-shadow:0 20px 60px #5014321a;text-align:center}
+.letter-box h3{font:38px Georgia,serif;color:#922f55;margin-bottom:25px}
+.letter-box p{line-height:2;font-size:18px;color:#684957;margin-bottom:18px}
+.signature{margin-top:25px;font:italic 28px Georgia,serif;color:#a63860}
+.final{min-height:65vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135deg,#7f2447,#b73d69);color:#fff}
+.big-heart{font-size:80px;animation:beat 1.2s infinite;margin-bottom:20px}
+@keyframes beat{50%{transform:scale(1.2)}}
+.final h2{font:clamp(45px,8vw,90px) Georgia,serif;margin-bottom:20px}
+.final p{font-size:20px;line-height:1.8;max-width:700px;margin:auto;color:#ffe9f1}
+footer{text-align:center;padding:25px;background:#54152e;color:#f8cbd9}
+.heart{position:fixed;bottom:-30px;pointer-events:none;z-index:1000;animation:float 7s linear forwards}
+@keyframes float{20%{opacity:1}100%{transform:translateY(-110vh) rotate(25deg) scale(1.5);opacity:0}}
+.lightbox{position:fixed;inset:0;background:#14050ce8;display:none;align-items:center;justify-content:center;z-index:2000;padding:20px}
+.lightbox.active{display:flex}
+.lightbox img{max-width:92%;max-height:88vh;border-radius:15px}
+.close{position:absolute;top:20px;right:30px;color:#fff;font-size:45px;cursor:pointer}
+@media(max-width:850px){.about-grid{grid-template-columns:1fr}.gallery-grid,.special-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){section{padding:70px 20px}.gallery-grid,.special-grid{grid-template-columns:1fr}.card{height:460px}.letter-box{padding:35px 22px}.about-image{height:430px}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+<div class="hero-content">
+<div class="kicker">A Website Dedicated To</div>
+<h1>Rasmalai ❤️</h1>
+<h2>My Sweetest Person</h2>
+<p>Kuch log life mein aate hain aur life ko aur beautiful bana dete hain. Mere liye woh person tum ho, meri Rasmalai. ❤️</p>
+<a class="btn" href="#gallery">See Her Memories 💕</a>
+</div>
+</header>
+
+<section class="about">
+<div class="title"><span>About Her</span><h2>Why Rasmalai?</h2><p>Naam sirf Rasmalai hai, lekin mere liye iska meaning thoda zyada special hai.</p></div>
+<div class="about-grid">
+<img class="about-image" src="images/rasmalai-main.jpg" alt="Rasmalai">
+<div class="about-text">
+<h3>She is my favourite person. ❤️</h3>
+<p>Rasmalai sirf ek naam nahi hai. Ye woh smile hai jo mood automatically theek kar deti hai, woh baatein hain jo bina reason ke bhi smile kara deti hain, aur woh feeling hai jo explain karna thoda mushkil hai.</p>
+<p>Kabhi cute, kabhi pagal, kabhi nakhre wali... lekin har version mein meri favourite. 😌❤️</p>
+<div class="quote">"Meri life ki sweetest problem bhi tum ho, aur sweetest solution bhi tum." ❤️</div>
+</div>
+</div>
+</section>
+
+<section class="gallery" id="gallery">
+<div class="title"><span>Her Beautiful Moments</span><h2>Rasmalai Gallery 📸</h2><p>Har photo ke saath ek alag memory aur ek alag smile. ❤️</p></div>
+<div class="gallery-grid">
+<div class="card" onclick="openImage(this)"><img src="images/rasmalai1.jpg"><div class="caption">My Favourite Smile ❤️</div></div>
+<div class="card" onclick="openImage(this)"><img src="images/rasmalai2.jpg"><div class="caption">You + Me = Forever 💕</div></div>
+<div class="card" onclick="openImage(this)"><img src="images/rasmalai3.jpg"><div class="caption">My Beautiful Bride-to-be ❤️</div></div>
+<div class="card" onclick="openImage(this)"><img src="images/rasmalai4.jpg"><div class="caption">My Krishna's Favourite Rasmalai 🦚</div></div>
+<div class="card" onclick="openImage(this)"><img src="images/rasmalai5.jpg"><div class="caption">My Happiness ❤️</div></div>
+<div class="card" onclick="openImage(this)"><img src="images/rasmalai6.jpg"><div class="caption">Cutest Rasmalai 🥰</div></div>
+<div class="card" onclick="openImage(this)"><img src="images/rasmalai7.jpg"><div class="caption">My Sweetest Person 💖</div></div>
+<div class="card" onclick="openImage(this)"><img src="images/rasmalai8.jpg"><div class="caption">Always Yours ❤️</div></div>
+</div>
+</section>
+
+<section class="special">
+<div class="title"><span>She Is Special Because</span><h2>My Rasmalai ❤️</h2><p>Kuch reasons jo usko mere liye aur bhi special banate hain.</p></div>
+<div class="special-grid">
+<div class="special-card"><div class="icon">😊</div><h3>Her Smile</h3><p>Ek smile aur mera pura mood change. Itni power kisi superpower mein bhi nahi.</p></div>
+<div class="special-card"><div class="icon">❤️</div><h3>Her Heart</h3><p>Uski simplicity aur care hi usko mere liye sabse zyada special banati hai.</p></div>
+<div class="special-card"><div class="icon">🥰</div><h3>Her Presence</h3><p>Baat ho ya na ho, bas uska hona hi ek alag si happiness deta hai.</p></div>
+</div>
+</section>
+
+<section class="letter">
+<div class="title"><span>A Little Message</span><h2>For My Rasmalai 💌</h2></div>
+<div class="letter-box">
+<h3>Dear Rasmalai,</h3>
+<p>Pata nahi tumhe ye website dekh kar kya feel hoga, but ek baat sach hai...</p>
+<p>Tum meri life ka woh part ban chuki ho jiske bina ab normal sa bhi din thoda incomplete lagta hai.</p>
+<p>Tumhari smile, tumhari baatein, tumhare nakhre aur tumhara cute sa gussa... sab kuch apna sa lagta hai.</p>
+<p>Bas aise hi meri life mein rehna. Aur haan... Rasmalai rehna, kyunki tumhare bina meri life mein sweetness thodi kam ho jayegi. ❤️</p>
+<div class="signature">Always yours ❤️</div>
+</div>
+</section>
+
+<section class="final">
+<div>
+<div class="big-heart">❤️</div>
+<h2>Rasmalai, You Are Special.</h2>
+<p>Duniya mein bahut saare beautiful people hain, lekin meri favourite sirf ek hai.<br><br><strong>My Rasmalai. ❤️</strong></p>
+</div>
+</section>
+
+<footer>Made with ❤️ specially for Rasmalai</footer>
+
+<div class="lightbox" id="lightbox" onclick="closeImage()"><div class="close">×</div><img id="lightboxImage"></div>
+
+<script>
+function createHeart(){
+ const h=document.createElement("div");h.className="heart";
+ h.textContent=["❤️","💕","💗","💖","💓"][Math.floor(Math.random()*5)];
+ h.style.left=Math.random()*100+"vw";h.style.fontSize=15+Math.random()*20+"px";
+ document.body.appendChild(h);setTimeout(()=>h.remove(),7000);
+}
+setInterval(createHeart,700);
+function openImage(card){document.getElementById("lightboxImage").src=card.querySelector("img").src;document.getElementById("lightbox").classList.add("active")}
+function closeImage(){document.getElementById("lightbox").classList.remove("active")}
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeImage()});
+</script>
+</body>
+</html>
